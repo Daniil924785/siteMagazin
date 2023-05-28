@@ -1,0 +1,21 @@
+
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Регистрация</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <h1>Регистрация</h1>
+    <form method="post">
+        <input type="text" class="form-control" placeholder="ФИО"><br>
+        <input type="number" class="form-control" placeholder="Введите возраст"><br>
+        <input type="text" class="form-control" placeholder="e-mail"><br>
+        <input type="text" class="form-control" placeholder="телефон"><br>
+        <input type="text" class="form-control" placeholder="адресс"><br>
+
+        <button class="btn btn-success" type="submit">Зарегистрироваться</button>
+    </form>
+</div>
+{% endblock %}
